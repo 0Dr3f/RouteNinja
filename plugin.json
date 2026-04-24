@@ -1,36 +1,36 @@
 {
-  "pluginmetadataversion": 2,
-  "name": "RouteNinja",
-  "type": [
-    "ui",
-    "helper"
-  ],
-  "api": [
-    "python3"
-  ],
-  "description": "Find call-graph paths between two functions and visualize call trees.",
-  "longdescription": "RouteNinja enumerates shortest paths through the Binary Ninja call graph from a chosen source function to a chosen target function. Useful when you know a deep function was reached (e.g. an error path, a crash site, or a sensitive sink) and want to see which branches from your entry point lead there. Bidirectional BFS keeps the search fast on large binaries; results are shown as an interactive flow graph with clickable nodes that jump to the underlying function. Also includes a call-tree view \u2014 pick one function and see everything it reaches (callees) or everything that reaches it (callers), laid out breadth-first up to a configurable depth.",
-  "license": {
-    "name": "GPL-3.0-only",
-    "text": "RouteNinja is licensed under the GNU General Public License v3.0. See the LICENSE file in the repository root for the full license text."
-  },
-  "platforms": [
-    "Darwin",
-    "Linux",
-    "Windows"
-  ],
-  "installinstructions": {
-    "Darwin": "Install via Binary Ninja's Plugin Manager, or clone this repository into ~/Library/Application Support/Binary Ninja/plugins/RouteNinja.",
-    "Linux": "Install via Binary Ninja's Plugin Manager, or clone this repository into ~/.binaryninja/plugins/RouteNinja.",
-    "Windows": "Install via Binary Ninja's Plugin Manager, or clone this repository into %APPDATA%\\Binary Ninja\\plugins\\RouteNinja."
-  },
-  "dependencies": {
-    "pip": [],
-    "apt": [],
-    "installers": [],
-    "other": []
-  },
-  "version": "0.1.0",
-  "author": "0Dr3f",
-  "minimumbinaryninjaversion": 3164
+    "pluginmetadataversion": 2,
+    "name": "RouteNinja",
+    "type": [
+        "ui",
+        "helper"
+    ],
+    "api": [
+        "python3"
+    ],
+    "description": "Find call-graph paths between two functions and visualize call trees.",
+    "longdescription": "RouteNinja enumerates shortest paths through the Binary Ninja call graph from a chosen source function to a chosen target function. Useful when you know a deep function was reached (e.g. an error path, a crash site, or a sensitive sink) and want to see which branches from your entry point lead there. Bidirectional BFS keeps the search fast on large binaries; results are shown as an interactive flow graph with clickable nodes that jump to the underlying function. Also includes a call-tree view \u2014 pick one function and see everything it reaches (callees) or everything that reaches it (callers), laid out breadth-first up to a configurable depth.",
+    "license": {
+        "name": "GPL-3.0-only",
+        "text": "RouteNinja is licensed under the GNU General Public License v3.0. See the LICENSE file in the repository root for the full license text."
+    },
+    "platforms": [
+        "Darwin",
+        "Linux",
+        "Windows"
+    ],
+    "installinstructions": {
+        "Darwin": "Install via Binary Ninja's Plugin Manager, or clone this repository into ~/Library/Application Support/Binary Ninja/plugins/RouteNinja.",
+        "Linux": "Install via Binary Ninja's Plugin Manager, or clone this repository into ~/.binaryninja/plugins/RouteNinja.",
+        "Windows": "Install via Binary Ninja's Plugin Manager, or clone this repository into %APPDATA%\\Binary Ninja\\plugins\\RouteNinja."
+    },
+    "dependencies": {
+        "pip": [],
+        "apt": [],
+        "installers": [],
+        "other": []
+    },
+    "version": "0.1.1",
+    "author": "0Dr3f",
+    "minimumbinaryninjaversion": 3164
 }
