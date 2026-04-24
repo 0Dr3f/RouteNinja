@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+
+# ---- IDEs ----
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Binary Ninja ----
+# Don't check in bndb analysis databases — they're user data, huge, and
+# often tied to a specific binary we don't want to ship in the repo.
+*.bndb
+*.bndb.lock
+
+# ---- Local/dev scratch ----
+# Internal probe scripts live outside the repo; reject accidental copies.
+_probe_*.py
+*.local.json

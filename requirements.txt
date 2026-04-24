@@ -1,0 +1,4 @@
+# RouteNinja has no third-party Python dependencies beyond what Binary Ninja
+# already ships (PySide6, binaryninja, binaryninjaui). The file is kept as a
+# placeholder so the Plugin Manager can still detect it and because it's part
+# of the Binary Ninja plugin repository convention.
