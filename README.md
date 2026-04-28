@@ -141,7 +141,7 @@ a node already on the current path, so recursive call graphs don't explode.
 ├── logo.png               Sidebar icon
 ├── plugin.json            Plugin metadata
 ├── requirements.txt       (no external deps, just here by convention)
-├── LICENSE                GPL-3.0
+├── LICENSE                MIT
 ├── README.md              You are here
 └── tests/
     └── smoke_test.py      End-to-end tests via the binja-headless RPyC server
@@ -149,4 +149,4 @@ a node already on the current path, so recursive call graphs don't explode.
 
 ## License
 
-[GPL-3.0](LICENSE).
+[MIT](LICENSE).
